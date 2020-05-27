@@ -1,2 +1,4 @@
 netmiko
+flask
+flask_cors
 ntc_templates

@@ -2,8 +2,8 @@ import json
 from flask import Flask
 from flask_cors import CORS
 from models.switch import Switch
-from modules.deviceconnect import DeviceConnect
-from modules.dummyconnect import DeviceConnect
+from modules.dummy import DummySwitch, DummyConnect
+
 
 app = Flask(__name__)
 CORS(app)
