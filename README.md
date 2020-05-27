@@ -17,17 +17,17 @@ pip install -r requirements.txt
 
 ```
 
-### Starting the API
+#### Starting the API
 ```
 echo username:hostname > credentials.conf
 python app.py
 
 ```
 
-### Testing
-http://<api-hostname>:5000/api/dummy/command/show_interfaces_status/<imaginary switch hostname>
+#### Testing
+http://<api-hostname>:5000/api/dummy/command/show_interfaces_status/<imaginary switch hostname>  
 http://<api-hostname>:5000/api/dummy/gather/<imaginary switch hostname>
 
-### Real endpoints
-http://<api-hostname>/api/command/show_interfaces_status/<switch hostname>
+#### Real endpoints
+http://<api-hostname>/api/command/show_interfaces_status/<switch hostname>  
 http://<api-hostname>/api/gather/<switch hostname>
